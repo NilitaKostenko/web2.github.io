@@ -2,63 +2,82 @@
    font-size: 20px;
    box-sizing: border-box;
    margin: 0;
- }
+}
+
+#logo {
+    float: left;
+    width: 10svh;
+    height: 10svh;
+    margin-right: 15px;
+}
+
+header {
+    height: 10svh;
+}
+
+header h1 {
+    font-size: 5svh;
+    clear: right;
+}
+
+#flex-box container {
+    clear: both;
+}
+
 body{
    color:#4B0082;
    background-color: #a484f6;
 }
 .page-nav{
    max-width: 960px;
-   border: 3px solid #000000;
-   margin-left: 20%;
-   background-color: rgba(30, 212, 166, 0.47);
+   max-height: 5svh;
+   margin: 0;
+   background-color: rgb(70, 174, 167);
+   float: right;
  }
  .page-nav li {
    display: inline-block;
-   margin: 5px 30px 0 0;
-   width: 250px;
-   border: 3px solid #759cd8;
+   text-align: center;
+   margin: 0;
    background-color: #8b31c4;
-   padding: 10px;
+   padding: 5px;
    border: 2px solid #000000;
+   font-size: 0.5em;
  }
 
- nav ul li {
-   margin:1 auto;
-   border: 2px solid #000000;
-   background-color: #e799f17c;
-   min-height: 20px;
-   width: 50%;
-   text-align: center;
-   }
+ h2 {
+    font-size: 25pt;
+    text-align: center;
+    margin: 10px 0px;
+ }
+
  div {
-   margin: 0 auto;
+   margin: 0;
    max-width: 960px;
  }
  .link  {
   margin: 0 auto;
-  flex-direction: column;
  }
  li{
-  margin:10px auto;
+  margin:0px auto;
  }
  ul{
-  margin: 0 auto;
-   display: inline-flex;
-   list-style-type: none;
+    margin: 0 auto;
+    list-style-type: none;
  }
 
  a{
-     display: block;
+     display: inline;
      color: #000000;
  }
  a:hover{
      text-decoration: underline;
  }
  .table{
-     border-collapse: collapse;
-     border: 1px solid black;
 
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
  }
  th, td{
      border: 1px solid black;
@@ -66,7 +85,7 @@ body{
  #form{
   margin: 0 auto;
   padding:0 auto;
-     align-items: center;
+  align-items: center;
  }
  input, select, textarea{
      outline: none;
