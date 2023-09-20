@@ -20,9 +20,11 @@ header h1 {
     clear: right;
 }
 
-#flex-box container {
+.flex-box_container {
     clear: both;
-    float: center;
+    width: 100%;
+   max-width: 960px;
+    margin: 0 auto;
 }
 
 body{
