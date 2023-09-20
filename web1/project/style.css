@@ -22,7 +22,7 @@ header h1 {
 
 #flex-box container {
     clear: both;
-    margin-left: 100px 
+    text-align: center; 
 }
 
 body{
