@@ -22,7 +22,8 @@ header h1 {
 
 #flex-box container {
     clear: both;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
